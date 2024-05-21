@@ -4,13 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SIMPLY CHOCOLATE</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="shortcut icon" href="images/chocolate.svg" type="image/svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html"
-          >SIMPLY CHOCOLATE
+    <header class="page-header">
+      <nav class="header-nav">
+        <a class="logo" href="./index.html"
+          >SIMPLY <span class="logo-norm"> CHOCOLATE </span>
           <img
             src="./images/chocolate.svg"
             alt="Logotyp"
@@ -18,10 +32,16 @@
             height="24"
           />
         </a>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="#made">How it &#39;s made?</a></li>
-          <li><a href="#loved">Chocolate is loved</a></li>
+        <ul class="header-nav-list">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#made">How it &#39;s made?</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#loved">Chocolate is loved</a>
+          </li>
         </ul>
       </nav>
       <ul>
@@ -69,17 +89,24 @@
 
     <main>
       <!-- #region Hero -->
-      <section>
-        <h1>
+      <section class="hero">
+        <h1 class="hero-title">
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
-        <ul>
-          <li><button type="button">Buy now</button></li>
-          <li><button type="button">How it&#39;s made</button></li>
+        <ul class="hero-list">
+          <li class="hero-item">
+            <button class="hero-button btn-buy" type="button">Buy now</button>
+          </li>
+          <li class="hero-item">
+            <button class="hero-button btn-how" type="button">
+              How it&#39;s made
+            </button>
+          </li>
         </ul>
-        <a href="#"
+        <a class="hero-link" href="#"
           >scroll down<img
+            class="hero-link-icon"
             src="./images/scrolldown.svg"
             alt="scroll down"
             width="22"
@@ -90,7 +117,7 @@
 
       <!-- #region Benefits -->
       <section>
-        <h2 hidden>Benefits</h2>
+        <h2 class="visually-hidden">Benefits</h2>
         <ul>
           <li>
             <h3>Unsurpassed taste</h3>
