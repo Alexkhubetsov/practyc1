@@ -137,3 +137,210 @@ a {
 
 .hero-link-icon {}
 /* #endregion hero */
+
+/* #region Benefits */
+.benefits {
+    background: #1e1823;
+}
+
+.benefits-list {}
+
+.benefits-item {}
+
+.benefits-caption {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #fff;
+}
+
+.benefits-desc {
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* #endregion */
+
+/* #region Ingridients */
+.ingridients {}
+
+.ingridients-list {}
+
+.ingridients-item {
+    background: #fff;
+}
+
+.ingridients-caption {
+    font-weight: 600;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+/* #endregion Ingridients */
+
+/* #region Made */
+.made {}
+
+
+.made-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+.made-list {}
+
+.made-item {
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+
+/* #endregion Made */
+
+/* #region Products */
+.products {}
+
+.products-title {}
+
+.products-list {}
+
+.products-item {
+    background: #fff;
+}
+
+.products-ill {}
+
+.products-heading {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.products-category {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.products-price {
+    font-weight: 600;
+    line-height: 1.21;
+
+    background-color: #fafafa;
+}
+
+/* #endregion Products */
+
+/* #region Sellers */
+.sellers {}
+
+.sellers-title {}
+
+.sellers-list {}
+
+.sellers-item {
+    background: #fff;
+}
+
+.sellers-sup-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+/* #endregion Sellers */
+
+/* #region Reviews */
+.reviews {}
+
+.reviews-list {}
+
+.reviews-item {
+    background: #fff;
+}
+
+.reviews-avatar {}
+
+.reviews-author {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+}
+
+.reviews-text {
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+/* #endregion Reviews */
+
+/* #region Footer */
+.footer {
+    background: #1e1823;
+}
+
+.footer-slogan {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.footer-slogan-accent {
+    color: #fd9222;
+}
+
+.footer-address {}
+
+.footer-caption {
+    font-weight: 500;
+    line-height: 1.29;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-contatcs {}
+
+.footer-contatcs-item {}
+
+.footer-contacts-link {
+    line-height: 1.29;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+    color: #fd9222;
+}
+
+.footer-menu {}
+
+.footer-menu-item {}
+
+.footer-menu-link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+    color: #fd9222;
+}
+
+/* #endregion */
